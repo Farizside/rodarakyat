@@ -8,7 +8,8 @@ Setup Projek
 1. Lakukan Fungsi Migrate (php artisan migrate:fresh --seed --seeder=CreateUsersSeeder)
 2. Install Node Package Manager (npm install)
 3. Jalankan NPM ketika ingin menjalankan projek (npm run dev)
-4. Jalankan php artisan serve
+4. php artisan key:generate
+5. Jalankan php artisan serve
 
 Informasi Projek
 
