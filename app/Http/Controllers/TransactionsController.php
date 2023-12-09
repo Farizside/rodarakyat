@@ -27,11 +27,8 @@ class TransactionsController extends Controller
         $cars = Cars::find($id);
         $request->validate([
             'duration' => 'required|integer',
-            'payment_proof' => 'required'
+            'payment_proof' => 'required|string',
         ]);
-
-        $fileName = time() . '.' . $request->image->extension();
-        $request->image->storeAs('public/images', $fileName);
 
         $data = [
             'user_id' => Auth::user()->id,
@@ -40,7 +37,7 @@ class TransactionsController extends Controller
             'car_type' => $cars->car_type,
             'duration' => $request->duration,
             'total' => $cars->price * $request->duration,
-            'payment_proof' => $filename
+            'payment_proof' => $request->payment_proof
         ];
 
         return view('rentDetail', compact(['data']));

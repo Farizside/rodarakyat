@@ -26,7 +26,7 @@
           </div>
           <div class="form-group">
             <label for="payment_proof">Payment Proof</label>
-            <input name="payment_proof" type="file" class="form-control" id="payment_proof" placeholder="Enter Payment Proof">
+            <input name="payment_proof" type="text" class="form-control" id="payment_proof" placeholder="Enter Payment Proof">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>

@@ -29,12 +29,8 @@
             <input name="car_type" type="text" class="form-control" id="car_type" placeholder="Enter Car Type">
           </div>
           <div class="form-group">
-            <label for="price_fullday">Price Fullday</label>
-            <input name="price_fullday" type="number" class="form-control" id="price_fullday" placeholder="Enter Price Fullday">
-          </div>
-          <div class="form-group">
-            <label for="price_halfday">Price Halfday</label>
-            <input name="price_halfday" type="number" class="form-control" id="price_halfday" placeholder="Enter Price Halfday">
+            <label for="price">Price</label>
+            <input name="price" type="number" class="form-control" id="price" placeholder="Enter Price Fullday">
           </div>
           <div class="form-group">
             <label for="capacity">Capacity</label>

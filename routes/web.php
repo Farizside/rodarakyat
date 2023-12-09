@@ -1,3 +1,8 @@
+Nama    : Muhammad Fariz Hartawan
+NIM     : 10121143
+Kelas   : IF4
+Project : Roda Rakyat (Rental Mobil)
+
 <?php
   
 use Illuminate\Support\Facades\Route;

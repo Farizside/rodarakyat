@@ -51,7 +51,7 @@ class CarsController extends Controller
         $cars->update([
             'license_plate' => $request->license_plate,
             'car_type' => $request->car_type,
-            'price' => $request->price_fullday,
+            'price' => $request->price,
             'capacity' => $request->capacity,
         ]);
 
