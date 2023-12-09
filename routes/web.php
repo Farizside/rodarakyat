@@ -24,7 +24,7 @@ use App\Http\Controllers\TransactionsController;
 */
   
 Route::get('/', function () {
-    return view('dashboard1');
+    return view('dashboard');
 })->name('/');
   
 Auth::routes();
