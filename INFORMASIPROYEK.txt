@@ -1,0 +1,48 @@
+Nama	: Muhammad Fariz Hartawan
+NIM	: 10121143
+Kelas	: IF4
+Projek	: Roda Rakyat (Rental Mobil)
+
+Setup Projek
+
+1. Lakukan Fungsi Migrate (php artisan migrate:fresh --seed --seeder=CreateUsersSeeder)
+2. Install Node Package Manager (npm install)
+3. Jalankan NPM ketika ingin menjalankan projek (npm run dev)
+4. Jalankan php artisan serve
+
+Informasi Projek
+
+1. Terdapat 2 Role dalam sistem Roda Rakyat yaitu Admin dan User, untuk melakukan prosesl login, gunakan akun yang sudah disediakan melalui seeder
+
+   a. Admin
+      Email	: admin@rodarakyat.com
+      Password	: 123456
+   b. User
+      Email	: fariz@gmail.com
+      Password	: 123456
+
+2. Proses Register hanya bisa membuat akun User baru dan NIK bersifat unik.
+
+3. Hak Akses Admin
+   a. Melihat Data User
+   b. Melihat Data Mobil
+   c. Membuat Data Mobil
+   d. Mengedit Data Mobil
+   e. Menghapus Data Mobil
+   f. Melihat Data Transaksi
+   g. Menyetujui Transaksi
+
+4. Hak Akses User
+   a. Melihat Data Mobil yang tersedia
+   b. Melakukan Permintaan Rental
+   c. Melihat Riwayat Pemintaan Rental
+   d. Melihat Riwayat Rental
+
+5. Alur Proses Rental
+   a. Admin harus menyediakan beberapa mobil untuk direntalkan
+   b. User memilih mobil untuk dirental
+   c. User mengisi form permintaan rental yang berisi durasi dan bukti pembayaran
+   d. User menunggu permintaan untuk disetujui oleh Admin
+   e. Admin mengecek permintaan User
+   f. Admin menyetujui permintaan User ketika User datang ke lokasi untuk mengambil mobil
+   g. Admin menyelesaikan transaksi On Going ketika mobil telah dikembalikan
